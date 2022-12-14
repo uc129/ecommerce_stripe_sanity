@@ -1,26 +1,26 @@
-import React from 'react';
-import Head from 'next/head';
+/** @format */
 
-import Navbar from './Navbar';
+import Head from 'next/head';
+import React from 'react';
+
 import Footer from './Footer';
+import Navbar from './Navbar';
 
 const Layout = ({ children }) => {
   return (
     <div className="layout">
       <Head>
-        <title>JS Mastery Store</title>
+        <title>Braindump Electronics</title>
       </Head>
       <header>
         <Navbar />
       </header>
-      <main className="main-container">
-        {children}
-      </main>
+      <main className="main-container">{children}</main>
       <footer>
         <Footer />
       </footer>
     </div>
-  )
-}
+  );
+};
 
-export default Layout
+export default Layout;

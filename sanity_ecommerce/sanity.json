@@ -1,10 +1,10 @@
 {
   "root": true,
   "project": {
-    "name": "ecommerce"
+    "name": "ecommerce_app"
   },
   "api": {
-    "projectId": "vfxfwnaw",
+    "projectId": "rynlr4gs",
     "dataset": "production"
   },
   "plugins": [
